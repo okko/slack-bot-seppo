@@ -1,3 +1,5 @@
-name = "350fi-bot"
+name = "350fi-seppo"
 main = "src/index.ts"
 compatibility_date = "2025-02-14"
+account_id = "50321c421af09269ea50b386cd1d62d2"
+workers_dev = true

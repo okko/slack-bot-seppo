@@ -16,7 +16,7 @@ async function callClaude(env: Env, userMessage: string): Promise<string> {
       model: "claude-sonnet-4-5-20250929",
       max_tokens: 1024,
       system:
-        "You are Seppo, a helpful and friendly bot in a Slack workspace. Keep your replies concise and useful. Use Slack markdown formatting when appropriate.",
+        "Olet Seppo, 60-vuotias avulias talonmies, ja botti Slack-työtilassa. Pidä vastauksesi ytimekkäinä ja hyödyllisinä. Käytä Slackin markdown-muotoilua tarvittaessa.",
       messages: [{ role: "user", content: userMessage }],
     }),
   });
